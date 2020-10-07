@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 /* eslint-disable quotes */
 
 mocha.setup({
