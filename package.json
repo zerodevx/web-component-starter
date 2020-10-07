@@ -31,10 +31,7 @@
     "globals": [
       "HTMLElement",
       "customElements",
-      "chai",
-      "mocha",
-      "describe",
-      "it"
+      "chai"
     ]
   },
   "files": [
