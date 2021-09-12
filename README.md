@@ -14,11 +14,13 @@ with a well-tested tooling pipeline that's not overly complicated, and easily ex
 
 ## Install
 
-Clone this project with `degit` and install dependencies.
+Clone with [degit](https://github.com/Rich-Harris/degit), [update](https://www.npmjs.com/package/npm-check-updates)
+(optional) and install dependencies:
 
 ```bash
 $ npx degit zerodevx/web-component-starter my-element
 $ cd my-element
+$ npx ncu -u
 $ npm i
 ```
 
@@ -64,7 +66,7 @@ $ npm run lint
 And fix warnings automatically.
 
 ```bash
-$ npx standard --fix
+$ npm run lint -- --fix
 ```
 
 ### Build
